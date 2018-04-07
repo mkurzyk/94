@@ -1,9 +1,14 @@
-﻿
-function drawTree(x) {
+function drawTree(x) 
+
+{
 
 	for (i=1; i<=x; i++) {
-	
-		for (y=1; y <= i; y++) {
+	 	for (j = i; j < n; j++)
+        	{
+            		document.write("");
+        	}
+		for (y=1; y <= i; y++) 
+		{
 			document.write('*');
 		}
 			document.write('<br/>');
